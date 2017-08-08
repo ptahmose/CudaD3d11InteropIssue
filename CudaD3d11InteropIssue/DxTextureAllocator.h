@@ -13,7 +13,6 @@ public:
 	~CDxTextureAllocator();
 
 	void Initialize();
-	void AllocateAndFree(int size, int count);
 	bool AllocateAndKeep(int size, int count);
 	void FreeHeldTextures();
 };
