@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include <iostream>
 #include "string"
-#include "D3dTextureAlloc.h"
+#include "DxTextureAllocator.h"
 
 using namespace std;
 
