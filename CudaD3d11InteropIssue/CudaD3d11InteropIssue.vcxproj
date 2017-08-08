@@ -151,11 +151,11 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="D3dTextureAlloc.h" />
+    <ClInclude Include="DxTextureAllocator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CudaD3d11InteropIssue.cpp" />
-    <ClCompile Include="D3dTextureAlloc.cpp" />
+    <ClCompile Include="DxTextureAllocator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,4 @@
-#include "D3dTextureAlloc.h"
+#include "DxTextureAllocator.h"
 #include <cmath>
 #include <algorithm>
 #include <memory>
